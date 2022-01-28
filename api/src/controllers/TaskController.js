@@ -24,6 +24,7 @@ module.exports = {
 
         idCount++;
 
+        init_task();
         task = {
             id: idCount, 
             title: title,
@@ -156,4 +157,16 @@ function date_task()
     assemble_date = assemble_date + current_date.getMinutes();
     
     return assemble_date;
+}
+
+function init_task() {
+    this.task = {
+        id: null, 
+        title: null,
+        description: null,
+        completed: null,
+        create_data: null,
+        update_data: null,
+        end_data: null,
+    }
 }

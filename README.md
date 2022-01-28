@@ -1,5 +1,5 @@
 # TesteMindtech
-Projeto Api Lista de afazeres
+Projeto Api Lista de afazeres, usando apenas array (sem db)
 
 1. git clone https://github.com/lohamedeveloper/TesteMindtech.git
 
